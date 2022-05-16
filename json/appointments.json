@@ -1,0 +1,222 @@
+{
+  "appointments": [
+    {
+      "id": 1,
+      "date": "Dienstag 14.12.2021",
+      "time": "9:30-9:45",
+      "place": "Fachhochschule Hagenberg",
+      "vaccine": "AstraZeneca",
+      "maxplaces": 5,
+      "persons": [
+
+      ]
+    },
+    {
+      "id": 2,
+      "date": "Dienstag 14.12.2021",
+      "time": "9:15-9:30",
+      "place": "Fachhochschule Hagenberg",
+      "vaccine": "Johnson&Johnson",
+      "maxplaces": 5,
+      "persons": [
+        {
+          "name": "Huber Sepp",
+          "svnr": 51111
+        },
+        {
+          "name": "Huber Michel",
+          "svnr": 51222
+        },
+        {
+          "name": "Lechner Sibille",
+          "svnr": 51333
+        },
+        {
+          "name": "Stibitzer Hans",
+          "svnr": 51444
+        },
+        {
+          "name": "Kastner Franz",
+          "svnr": 51555
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "Dienstag 14.12.2021",
+      "time": "9:00-9:15",
+      "place": "Fachhochschule Hagenberg",
+      "vaccine": "Johnson&Johnson",
+      "maxplaces": 5,
+      "persons": [
+        {
+          "name": "Eder Silvia",
+          "svnr": 52444
+        },
+        {
+          "name": "Eder Siegfried",
+          "svnr": 52333
+        },
+        {
+          "name": "Moser Horst",
+          "svnr": 52555
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "date": "Montag 13.12.2021",
+      "time": "10:30-10:45",
+      "place": "Bezirkssporthalle Perg",
+      "vaccine": "Biontech/Pfizer",
+      "maxplaces": 5,
+      "persons": [
+        {
+          "name": "Moser Laura",
+          "svnr": 51234
+        },
+        {
+          "name": "Fischer Lorenz",
+          "svnr": 51321
+        },
+        {
+          "name": "Fischer Ernestine",
+          "svnr": 52321
+        },
+        {
+          "name": "Fischer Gustav",
+          "svnr": 53441
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "date": "Montag 13.12.2021",
+      "time": "10:15-10:30",
+      "place": "Bezirkssporthalle Perg",
+      "vaccine": "Moderna",
+      "maxplaces": 5,
+      "persons": [
+        {
+          "name": "Moser Franz",
+          "svnr": 55234
+        },
+        {
+          "name": "Kastler Viktoria",
+          "svnr": 55321
+        },
+        {
+          "name": "Kastler Michael",
+          "svnr": 55321
+        },
+        {
+          "name": "Martin Paul",
+          "svnr": 55441
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "date": "Montag 13.12.2021",
+      "time": "10:00-10:15",
+      "place": "Bezirkssporthalle Perg",
+      "vaccine": "Moderna",
+      "maxplaces": 5,
+      "persons": [
+        {
+          "name": "Horst Gideon",
+          "svnr": 53444
+        },
+        {
+          "name": "Leibner Karl",
+          "svnr": 54333
+        },
+        {
+          "name": "Wansch Burgholda",
+          "svnr": 53555
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "date": "Montag 13.12.2021",
+      "time": "9:45-10:00",
+      "place": "Bezirkssporthalle Perg",
+      "vaccine": "Moderna",
+      "maxplaces": 5,
+      "persons": [
+        {
+          "name": "Tischler Sepp",
+          "svnr": 56111
+        },
+        {
+          "name": "Tischler Michel",
+          "svnr": 56222
+        },
+        {
+          "name": "Lechner Ludwig",
+          "svnr": 56333
+        },
+        {
+          "name": "Ludwig Hans",
+          "svnr": 56444
+        },
+        {
+          "name": "Kastner Anna",
+          "svnr": 56555
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "date": "Montag 13.12.2021",
+      "time": "9:30-9:45",
+      "place": "Bezirkssporthalle Perg",
+      "vaccine": "Biontech/Pfizer",
+      "maxplaces": 5,
+      "persons": [
+        {
+          "name": "Panholzer Sebastian",
+          "svnr": 57423
+        },
+        {
+          "name": "Kapplmüller Jacob",
+          "svnr": 57422
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "date": "Montag 13.12.2021",
+      "time": "9:15-9:30",
+      "place": "Bezirkssporthalle Perg",
+      "vaccine": "Biontech/Pfizer",
+      "maxplaces": 5,
+      "persons": [
+
+      ]
+    },
+    {
+      "id": 10,
+      "date": "Montag 13.12.2021",
+      "time": "9:00-9:15",
+      "place": "Bezirkssporthalle Perg",
+      "vaccine": "Biontech/Pfizer",
+      "maxplaces": 5,
+      "persons": [
+        {
+          "name": "Kapplmüller Rosa",
+          "svnr": 59444
+        },
+        {
+          "name": "Leibner Fritz",
+          "svnr": 59333
+        },
+        {
+          "name": "Wansch Sepp",
+          "svnr": 59555
+        }
+      ]
+    }
+  ]
+}
