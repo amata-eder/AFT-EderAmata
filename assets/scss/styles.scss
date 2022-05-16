@@ -1,28 +1,5 @@
-@import './table.scss';
-
-/*Buttons mit extend*/
-button {
-  background-color: white;
-  color: cornflowerblue;
-  margin: .5em;
-  padding: .2em;
-}
-
-button:hover{
-  background-color: cornflowerblue;
-  color: white;
-}
-
-.specialBtn {
-  @extend button;
-  padding: .5em;
-
-}
-
-.specialBtn:hover{
-  border: 3px solid cornflowerblue;
-}
-
+@import './_components.scss';
+@import './_mixins.scss';
 
 body {
   font-family: 'Readex Pro', sans-serif;
@@ -43,30 +20,14 @@ h2 {
 nav {
   a {
     text-decoration: none;
-    padding-top: 10em;
-    padding-bottom: 5em;
-    padding-inline: 1em;
+    @include padding(10em, 5em, 1em);
   }
+
   >a {
     &:hover {
       color: dimgrey;
       font-size: 1.25em;
     }
-  }
-}
-
-.austriavaccine {
-  animation-name: slide-in;
-  animation-duration: 2s;
-}
-
-/*Animationen*/
-@keyframes "slide-in" {
-  0% {
-    margin-left: 100vh;
-  }
-  100% {
-    margin-left: 0;
   }
 }
 
@@ -76,9 +37,7 @@ nav {
     display: flex;
     flex-direction: column;
     a {
-      padding-top: 0.5em;
-      padding-bottom: 0.5em;
-      padding-inline: 1em;
+      @include padding(.5em, .5em, 1em);
     }
   }
   .carousel-inner {

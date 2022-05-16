@@ -1,0 +1,6 @@
+@mixin padding($pTop, $pBottom, $pInline){
+  padding-top: $pTop;
+  padding-bottom: $pBottom;
+  padding-inline: $pInline;
+}
+

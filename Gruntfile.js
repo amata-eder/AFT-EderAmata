@@ -40,7 +40,7 @@ module.exports = function(grunt) {
           target: {
               files: {
                   'public/css/styles.min.css': ['public/css/styles.css'],
-                  'public/css/table.min.css': ['public/css/table.css'],
+                  'public/css/components.min.css': ['public/css/_components.css'],
               }
           }
         },
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
                 },
                 files: {                         // Dictionary of files
                     'public/css/styles.css': 'assets/scss/styles.scss',       // 'destination': 'source'
-                    'public/css/table.css': 'assets/scss/table.scss'
+                    'public/css/_components.css': 'assets/scss/_components.scss',
                 }
             }
         }

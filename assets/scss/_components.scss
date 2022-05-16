@@ -1,0 +1,47 @@
+/*Buttons mit extend*/
+button {
+  background-color: white;
+  color: cornflowerblue;
+  margin: .5em;
+  padding: .2em;
+}
+
+button:hover{
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.specialBtn {
+  @extend button;
+  padding: .5em;
+
+}
+
+.specialBtn:hover{
+  border: 3px solid cornflowerblue;
+}
+
+
+/*Table*/
+label {
+  font-weight: bold;
+  padding-top: 0.7em;
+}
+.calenderbtn {
+  padding-bottom: 0.5em;
+}
+.tablestriped {
+  background-color: #E7F1FF;
+}
+.vaccinepfizer {
+  color: #86b4f6;
+}
+.vaccinemoderna {
+  color: #b306da;
+}
+.vaccinejohnson {
+  color: green;
+}
+.vaccineastra {
+  color: orange;
+}
