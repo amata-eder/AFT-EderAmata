@@ -39,7 +39,8 @@ module.exports = function(grunt) {
         cssmin: {
           target: {
               files: {
-                  'public/css/styles.min.css': ['public/css/styles.css']
+                  'public/css/styles.min.css': ['public/css/styles.css'],
+                  'public/css/table.min.css': ['public/css/table.css'],
               }
           }
         },
@@ -59,6 +60,7 @@ module.exports = function(grunt) {
                 },
                 files: {                         // Dictionary of files
                     'public/css/styles.css': 'assets/scss/styles.scss',       // 'destination': 'source'
+                    'public/css/table.css': 'assets/scss/table.scss'
                 }
             }
         }
